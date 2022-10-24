@@ -126,6 +126,50 @@ header h1 {
     width: 4em;
 }
 
+/* form */
+.contact-title {
+    text-align: center;
+    font-size: 2em;
+}
+
+.contact-form {
+    width: 100%;
+    height: auto;
+    margin-top: 8em;
+}
+
+.form-name, .form-email, .form-phone, .submit-btn, .message {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+input {
+    height: 4em;
+}
+
+input,textarea {
+    border-radius: 4px;
+}
+
+#message {
+    width: 100%;
+}
+
+.btn {
+    text-align: center;
+    
+}
+
+button {
+    height: 2em;
+    width: 6em;
+    margin-top: 2em;
+    border-radius: 10px;
+    background-color: #213D56;
+    color: white;
+}
  footer {
      border-top: 2px solid#213D56;;
      display: flex;
