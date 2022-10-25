@@ -4,7 +4,7 @@
     box-sizing: border-box;
     background-color: white;
     /* color: rgb(75, 73, 73); */
-    font-family: 'Poppins', sans-serif;
+    font-family:'Roboto', sans-serif;
     color: #213D56;
 }
 /* .sentence-end-color {
@@ -307,4 +307,26 @@ button {
         font-size: 1.3em;
         padding: 5px;
     }
+ }
+
+ @media only screen and (min-width: 1000px) and (max-width: 1800px) {
+
+    .offer-section {
+        margin-bottom: 5em;
+    }
+
+    .contact-form h3 {
+        margin-top: -2em;
+    }
+
+
+    .form-email, .form-name, .form-phone {
+        width: 30em;
+    }
+
+    .message {
+        width: 30em;
+        height: 15em;
+    }
+
  }
