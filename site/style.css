@@ -6,6 +6,7 @@
     /* color: rgb(75, 73, 73); */
     font-family:'Roboto', sans-serif;
     color: #213D56;
+    line-height: 1.4em;
 }
 /* .sentence-end-color {
     color: #213D56;
@@ -110,6 +111,7 @@ header h1 {
  }
 
  .terms {
+     margin-top: 3em;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -182,8 +184,8 @@ input,textarea {
 }
 
 button {
-    height: 2em;
-    width: 6em;
+    height: 3em;
+    width: 16em;
     margin-top: 2em;
     border-radius: 10px;
     background-color: #213D56;
@@ -206,6 +208,7 @@ button {
      justify-content: center;
      font-size: 1em;
      gap: .5em;
+     margin-top: 1em;
  }
 
 
@@ -293,7 +296,7 @@ button {
     }
 
     button {
-        width: 100px;
+        width: 120px;
         height: 40px;
     }
 
